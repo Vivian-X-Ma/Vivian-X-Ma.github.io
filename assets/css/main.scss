@@ -7,3 +7,14 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.feature__item .archive__item-teaser {
+  max-height: none;
+  overflow: visible;
+}
+
+.feature__item .archive__item-teaser img {
+  width: 100%;
+  height: auto;
+  object-fit: contain; // or cover if you prefer uniform cropping
+}
