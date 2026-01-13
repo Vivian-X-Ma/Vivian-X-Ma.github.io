@@ -2,25 +2,25 @@
 title: "Example Web Page"
 layout: splash
 header:
-  overlay_color: "#000"
+  overlay_color: "#0f0a42ff"
   overlay_filter: "0.5"
-  overlay_image: /assets/img/Home-Banner-Image.jpeg
+  overlay_image: /assets/img/code_background.jpeg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Dr. David Florian is an engineer with a passion for teaching and the open-source community. His area of expertise is 3D printing, with an emphasis on large format pellet extrusion and selective laser sintering."
+excerpt: "Vivian Ma is currently a student at Vanderbilt University studying Computer Science. Outside of class, some of her hobbies include playing the piano, chess, and art. She enjoys exercising her creativity both by using code to build and hands-on making. This portfolio demonstrates some of her favorite projects and creations."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
-    alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
-    excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Plasma-Cutter-Banner.jpg
-    alt: "placeholder image 2"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+  - image_path: assets/img/resin_chess_set.jpg
+    alt: "Resin Chess Set"
+    title: "Chess Set"
+    excerpt: "Handmade with resin using molding and casting techniques"
+  - image_path: assets/img/acrylic_paint.jpg
+    alt: "painting of flowers"
+    title: "Acrylic Painting"
+    excerpt: "One of Vivian's many paintings"
+  - image_path: assets/img/github_page_kaleidoscope
+    title: "Kaleidoscope Creator"
+    excerpt: "A starting project that sparked Vivian's interest in Computer Science - built with p5.js libraries - [make your own kaleidoscope](https://p5js-projects.github.io/kaleidoscope/)"
 ---
 
 {% include feature_row %}
