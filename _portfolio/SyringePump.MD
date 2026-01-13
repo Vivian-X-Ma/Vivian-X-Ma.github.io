@@ -25,9 +25,16 @@ Text on the purpose/features of the design
 [code](https://github.com/Vivian-X-Ma/Vivian-X-Ma.github.io/blob/main/assets/code/syringe_pump_code.ino)
 
 
+# CAD Model
+
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028113f84d9acc9a5621e?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+
+
 # Components
 
-### 3D printed parts
+This syringe pump was built with a variety of parts, including our own 3D designed pieces. 
+
+#### 3D printed parts
 
 | Part | Description |
 |------|-------------|
@@ -41,7 +48,7 @@ Text on the purpose/features of the design
 
 
 
-### Off-the-shelf Parts
+#### Off-the-shelf Parts
 
 | Part | Quantity Required |
 |------|-------------------|
@@ -63,11 +70,4 @@ Text on the purpose/features of the design
 | V-Slot 20 × 40 × 350 mm | 1 |
 
 
-
-
-
-# CAD Model
-
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111d35c611cb0d02c3?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
-
-{% include gallery caption="The first picture shows a green light when the pump is turned on and the third picture shows some of the digital logic for programming the pump." %}
+{% include gallery caption="The first picture shows a green light when the pump is turned on, and the third picture shows a model of some of our electrical wiring." %}
