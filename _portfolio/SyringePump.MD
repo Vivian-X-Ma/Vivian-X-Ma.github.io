@@ -79,7 +79,6 @@ This syringe pump was built with a variety of parts, including 3D designed piece
 | V-Slot 20 × 40 × 350 mm | 1 |
 | LED | 1 | 
 | Button | 1 |
-| Limit Switch | 1 |
 | Arduino | 1 |
 
 
