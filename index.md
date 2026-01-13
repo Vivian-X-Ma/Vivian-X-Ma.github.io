@@ -1,9 +1,9 @@
 ---
-title: "Example Web Page"
+title: "Welcome to my Portfolio"
 layout: splash
 header:
   overlay_color: "#0f0a42ff"
-  overlay_filter: "0.6"
+  overlay_filter: "0.75"
   overlay_image: /assets/img/code_background.jpg
   actions:
     - label: "My Projects"

@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-My digital fabrication projects:
+Some of my projects (more coming soon!):
