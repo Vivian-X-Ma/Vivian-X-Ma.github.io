@@ -1,31 +1,43 @@
 ---
 
-title: "About David Florian"
+title: "About Vivian Ma"
 
 ---
 
+
+I am currently studying Computer Science and Math with minors in Digital Fabrication and Data Science. Some of my main interests include machine learning, AI applications, and backend development.
+
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+* Vanderbilt University (expected graduation: May 2027)
+  * Combined BS/MS in Computer Science 
+  * BS in Applied Mathematics
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+## Work Experience
+
+**American Bureau of Shipping (ABS)**  
+*Data & Analytics Intern* — Spring, TX  
+*May 2025 – Aug 2025*
+
+- Created an end-to-end ETL pipeline using Python and SQL, and deployed a real-time rapid alert system in Dataiku that scrapes two maritime news sources, uses OpenAI to extract vessel details, and sends daily email notifications to stakeholders
+- Built an AI chatbot interface using the OpenAI API and Streamlit, leveraging custom function calls for natural-language querying of engineering data lake tables in an agile development environment
+- Added Retrieval-Augmented Generation (RAG) capabilities to the AI agent with Azure AI Search by indexing 48K+ text chunks from ABS Rule documentation
+- **Technologies:** Python, SQL, Azure AI Search, Dataiku, OpenAI, Streamlit, LangChain, Polars
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
+Vivian has experience with various programming languages, frameworks, and software skills, as well as working with tools related to additive manufacturing (3D printing) from her rapid prototyping class
 
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
+**Languages:** Python, Java, C++, C, R, JavaScript, SQL, HTML/CSS  
 
-## Press 
+**Frameworks & Libraries:** React, Angular, Streamlit, LangChain, TensorFlow.js, YOLOv8, Polars, Pandas, scikit-learn  
 
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
+**Tools & Platforms:** Azure AI Search, Google Cloud Platform (GCP), GitHub, OpenAI API, Jupyter Notebook, Google Colab
 
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+**Digital Fabrication Tools:** Fused Filament Fabrication (FFF), Computer-Aided Design (CAD), Fusion360, Digital Logic
+
+
+## Awards
+
+* National Merit Scholar
+* William D. and Violet H. Hudson Honors Scholarship (Associated with Vanderbilt)
