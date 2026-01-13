@@ -98,7 +98,7 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "assets/img/head_shot.jpg"
-  bio              : "I am interested in learning about artificial intelligence, machine learning, cybersecurity, and more! Some of my hobbies include playing the piano, badminton, and chess. I also really enjoy crafting and making. "
+  bio              : "A motivated student, creativity lover, and art enthusiast"
   location         : "Nashville, TN"
   links:
     - label: "GitHub"
