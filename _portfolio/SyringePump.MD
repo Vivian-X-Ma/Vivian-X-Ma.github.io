@@ -2,21 +2,19 @@
 title: "Syringe Pump Project"
 excerpt: "This custom electric vehicle can reach speeds of up 30 MPH and has a range of over 50 miles!"
 header:
-  image: /assets/img/sp_model.png
-  teaser: /assets/img/syringe_pump_thumbnail.jpg
+    image: /assets/img/stabilizer.png
+    teaser: /assets/img/sp_model.png
 gallery:
-  - url: /assets/img/sp_actual.png
-    image_path: assets/img/sp_actual.jpg
-    alt: "syringe_pump_gallery_image 1"
-  - url: /assets/img/electrical_wiring.png
-    image_path: assets/img/electrical_wiring.png
-    alt: "syringe_pump_gallery_image 1"
-  - url: /assets/img/stabilizer.png
-    image_path: assets/img/stabilizer.png
-    alt: "syringe_pump_gallery_image 3"
+    - url: /assets/img/sp_actual.png
+      image_path: assets/img/sp_actual.png
+      alt: "syringe_pump_gallery_image 1"
+    - url: assets/img/syringe_pump_thumbnail.png
+      image_path: assets/img/syringe_pump_thumbnail.png
+      alt: "syringe_pump_gallery_image 2"
+    - url: /assets/img/electrical_wiring.png
+      image_path: assets/img/electrical_wiring.png
+      alt: "syringe_pump_gallery_image 3"
 ---
-
-
 
 Text on the purpose/features of the design
 • A real-life image or rendering of the final design
