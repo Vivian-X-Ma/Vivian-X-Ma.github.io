@@ -3,8 +3,8 @@ title: "Example Web Page"
 layout: splash
 header:
   overlay_color: "#0f0a42ff"
-  overlay_filter: "0.5"
-  overlay_image: /assets/img/code_background.jpeg
+  overlay_filter: "0.3"
+  overlay_image: /assets/img/code_background.jpg
   actions:
     - label: "My Projects"
       url: "/portfolio/"
@@ -18,7 +18,7 @@ feature_row:
     alt: "painting of flowers"
     title: "Acrylic Painting"
     excerpt: "One of Vivian's many paintings"
-  - image_path: assets/img/github_page_kaleidoscope
+  - image_path: assets/img/github_page_kaleidoscope.png
     title: "Kaleidoscope Creator"
     excerpt: "A starting project that sparked Vivian's interest in Computer Science - built with p5.js libraries - [make your own kaleidoscope](https://p5js-projects.github.io/kaleidoscope/)"
 ---
