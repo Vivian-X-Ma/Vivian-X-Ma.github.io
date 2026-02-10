@@ -3,23 +3,25 @@ title: "MultiMaterial Pliers"
 excerpt: "3D printed needle nose pliers capable of picking up through-hole resistors with a flexible component"
 header:
     image: /assets/img/stabilizer.png
-    teaser: /assets/img/plier_iter2.png
+    teaser: /assets/img/plier_iter2.jpg
 gallery:
-    - url: /assets/img/sp_actual.png
-      image_path: assets/img/sp_actual.png
-      alt: "syringe_pump_gallery_image 1"
-    - url: assets/img/syringe_pump_thumbnail.png
-      image_path: assets/img/syringe_pump_thumbnail.png
-      alt: "syringe_pump_gallery_image 2"
-    - url: /assets/img/electrical_wiring.png
-      image_path: assets/img/electrical_wiring.png
-      alt: "syringe_pump_gallery_image 3"
+    - url: /assets/img/plier_iter1.jpg
+      image_path: assets/img/plier_iter1.jpg
+      alt: "plier_gallery_image 1"
+    - url: assets/img/tolerance1.jpg
+      image_path: assets/img/tolerance1.jpg
+      alt: "plier_gallery_image 2"
+    - url: /assets/img/plier_iter2.jpg
+      image_path: assets/img/plier_iter2.jpg
+      alt: "plier_gallery_image 3"
+    - url: /assets/img/tolerance2.jpg
+      image_path: assets/img/tolerance2.jpg
+      alt: "plier_gallery_image 4"
 ---
 
 o Description of the project with a blurb about print-in-place parts. Perform external
 research to determine other applications print-in-place has been used (link specific
 examples). What combination of materials work well for print-in-place?
-o Embedded CAD model
 o About the design and iterative process (e.g., how was the spring component
 created and how is it retained in the model, materials used)
 
@@ -47,7 +49,7 @@ created and how is it retained in the model, materials used)
 
 ## CAD Model
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028111d35c611cb0d02c3?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811e4d09a38ca2d68f0?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ---
 
@@ -71,10 +73,10 @@ created and how is it retained in the model, materials used)
 
 ## Specifications
 
-| Specification       | Value |
-| ------------------- | ----- |
-| Jaw length          | 59.585 mm  |
-| Jaw capacity        | 20.6 mm  |
+| Specification | Value     |
+| ------------- | --------- |
+| Jaw length    | 59.585 mm |
+| Jaw capacity  | 20.6 mm   |
 
 ---
 
@@ -92,7 +94,6 @@ created and how is it retained in the model, materials used)
 | Print temperature | 210 - 215 °C |
 | Bed temperature | 65°C |
 
-
 ## Flexible Part TPU95A Print Settings
 
 | Setting | Value
@@ -107,7 +108,6 @@ created and how is it retained in the model, materials used)
 | Supports | No |
 | Print temperature | 230 - 235 °C |
 | Bed temperature | 60°C |
-
 
 ---
 
