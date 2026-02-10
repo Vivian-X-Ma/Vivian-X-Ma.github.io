@@ -22,9 +22,6 @@ examples). What combination of materials work well for print-in-place?
 o Embedded CAD model
 o About the design and iterative process (e.g., how was the spring component
 created and how is it retained in the model, materials used)
-o Relevant specifications of the pliers (jaw length, jaw capacity)
-o Table of print settings
-o Picture gallery of iterations and pliers.
 
 ## Project Summary
 
@@ -76,29 +73,41 @@ o Picture gallery of iterations and pliers.
 
 | Specification       | Value |
 | ------------------- | ----- |
-| Jaw length          | [mm]  |
-| Jaw capacity        | [mm]  |
-| Overall length      | [mm]  |
-| Weight              | [g]   |
-| Layers / wall count | [ ]   |
+| Jaw length          | 59.585 mm  |
+| Jaw capacity        | 20.6 mm  |
 
 ---
 
-## Print Settings
+## Rigid Part PLA Print Settings
 
 | Setting | Value
 
 |---|---|
-| Printer | [model] |
-| Nozzle size | [mm] |
-| Layer height | [mm] |
-| Infill | [%] |
-| Perimeters | [count] |
-| Supports | [Yes/No] |
-| Print temperature | [°C] |
-| Bed temperature | [°C] |
-| Print speed | [mm/s] |
-| PIP clearance | [mm] |
+| Printer | Voron Filament 3D printer |
+| Nozzle size | [0.6 mm] |
+| Infill | 31% Gyroid Fill |
+| Vertical Shells | 7 |
+| Horizontal Shells | 0 |
+| Supports | No |
+| Print temperature | 210 - 215 °C |
+| Bed temperature | 65°C |
+
+
+## Flexible Part TPU95A Print Settings
+
+| Setting | Value
+
+|---|---|
+| Printer | Voron Filament 3D printer |
+| Nozzle size | [0.6 mm] |
+| Infill | 25% Grid Fill |
+| Extrusion Width | 250% |
+| Vertical Shells | 7 |
+| Horizontal Shells | 0 |
+| Supports | No |
+| Print temperature | 230 - 235 °C |
+| Bed temperature | 60°C |
+
 
 ---
 
