@@ -19,31 +19,22 @@ gallery:
       alt: "plier_gallery_image 4"
 ---
 
-o Description of the project with a blurb about print-in-place parts. Perform external
-research to determine other applications print-in-place has been used (link specific
-examples). What combination of materials work well for print-in-place?
-o About the design and iterative process (e.g., how was the spring component
-created and how is it retained in the model, materials used)
 
 ## Project Summary
 
 **What it is:**  
-To complete this project, I designed and 3D printed a pair of pliers by assembling a flexible component with 4 rigid components, the two handles and 2 jaw parts. The pliers should be able to be directly assembled by hand after printing and pick up a through-hole resistor. In this page, I will provide an overview of my design process with my first multi-material 3D printing project.
+To complete this project, I designed and 3D printed a pair of pliers by assembling a flexible component with 4 rigid components, the two handles and 2 jaw parts. The pliers should be able to be directly assembled by hand after printing and pick up a through-hole resistor. Essentially, when the handles are squeezed, the flexible piece will flex, causing the jaws to also squeeze and come together to pick up a part. When released, the flexible piece will revert, returning the pliers to the open position. In this page, I will provide an overview of my design process with my first multi-material 3D printing project.
 
 **Print‑in‑place overview:**  
-Print-in-place allows for people to print a full piece without needing assembly 
+Print-in-place allows for people to print a full piece without needing assembly, which can be very useful when printing something with multiple components or assemblies for specific purposes. Pieces with a lot of detail that may be difficult to assemble or pieces that need different materials can benefit from using print-in-place. 
 
-**External examples of print‑in‑place (PIP):**
+Some applications of print-in-place include hinges, decorative models and fidget items, containers, and so much more. Here are a few examples:
+- [Collapsible basket](https://www.printables.com/model/22400-collapsible-basket-optimized)
+- [Planetary Gearhead](https://forum.bambulab.com/t/multi-material-print-in-place-mechanisms/168352)
+- [Fidget Lizard](https://www.thingiverse.com/thing:3505006)
+- [Hinges](https://www.crealitycloud.com/blog/tutorials/3d-printed-hinge)
 
-- [Example 1 — linked](https://example.com)
-- [Example 2 — linked](https://example.com)
-- [Example 3 — linked](https://example.com)
-
-**Material pairings for PIP:**  
-| Rigid Material | Flexible Material | Why it works | Notes |
-|---|---|---|---|
-| [e.g., PLA] | [e.g., TPU] | [Reason] | [Clearance/adhesion tips] |
-| [ ] | [ ] | [ ] | [ ] |
+Some of the best materials for print-in place parts include PLA, PETG, ABS, and TPU. PLA is easy to print, and I used it for my own project with TPU. ABS is rigid and requires more time to print, but it also works well, and I used it for one of my iterations of the plier design. PETG is rigid, but has a little bit of flexibility, so it is another good option for print-in-place. TPU is probably the best choice for anything that requires flexibility due to its material properties. Some considerations to keep in mind for multi-material prints include the adhesion between materials and their rate of warping. 
 
 ---
 
@@ -61,7 +52,7 @@ For the rigid parts, I designed the jaws to have a section at the very front tha
 
 For the fit between the rigid and flexible components, in my original design, I used a 0.2 mm tolerance, which led to a relatively loose fit between the pieces. It still worked, but the joints were not as strong. I modified the tolerance to a 0.07 mm tolerance in my final design, which had an improved fit due to TPU's flexibility, but if I were to try again, I may lower the tolerance even more, as well as fillet the edges of the dovetail. I find the final design still has a little bit of looseness. By filleting the edges of where the TPU and rigid materials join, it can help account for TPU's inability to print very straight edges and create a better fit. 
 
-My first iteration had rigid pieces printed out of ABS and my second iteration was printed out of PLA, but this did not make any significant difference. In the second iteration, there was a little bit of elephant's foot that caused a slight lip on the print, so the fit was not perfect, but the tolerance was still improved. Following iterations would likely result in even better fits. 
+My first iteration had rigid pieces printed out of ABS and my second iteration was printed out of PLA, but this did not make any significant difference. In the second iteration, there was a little bit of elephant's foot that caused a slight lip on the print, so the fit was not perfect, but the tolerance was still improved. For both iterations, the flexible piece was printed out of TPU95A. Following iterations would likely result in even better fits. 
 
 ---
 
