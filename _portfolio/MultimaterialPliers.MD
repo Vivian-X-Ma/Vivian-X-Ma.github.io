@@ -82,48 +82,44 @@ created and how is it retained in the model, materials used)
 
 ## Rigid Part PLA Print Settings
 
-| Setting | Value
-
-|---|---|
-| Printer | Voron Filament 3D printer |
-| Nozzle size | [0.6 mm] |
-| Infill | 31% Gyroid Fill |
-| Vertical Shells | 7 |
-| Horizontal Shells | 0 |
-| Supports | No |
-| Print temperature | 210 - 215 °C |
-| Bed temperature | 65°C |
+| Setting           | Value                     |
+| ----------------- | ------------------------- |
+| Printer           | Voron Filament 3D printer |
+| Nozzle size       | [0.6 mm]                  |
+| Infill            | 31% Gyroid Fill           |
+| Vertical Shells   | 7                         |
+| Horizontal Shells | 0                         |
+| Supports          | No                        |
+| Print temperature | 210 - 215 °C              |
+| Bed temperature   | 65 °C                     |
 
 ## Flexible Part TPU95A Print Settings
 
-| Setting | Value
-
-|---|---|
-| Printer | Voron Filament 3D printer |
-| Nozzle size | [0.6 mm] |
-| Infill | 25% Grid Fill |
-| Extrusion Width | 250% |
-| Vertical Shells | 7 |
-| Horizontal Shells | 0 |
-| Supports | No |
-| Print temperature | 230 - 235 °C |
-| Bed temperature | 60°C |
+| Setting           | Value                     |
+| ----------------- | ------------------------- |
+| Printer           | Voron Filament 3D printer |
+| Nozzle size       | [0.6 mm]                  |
+| Infill            | 25% Grid Fill             |
+| Extrusion Width   | 250%                      |
+| Vertical Shells   | 7                         |
+| Horizontal Shells | 0                         |
+| Supports          | No                        |
+| Print temperature | 230 - 235 °C              |
+| Bed temperature   | 60 °C                     |
 
 ---
 
 ## Gallery
 
-![1st pliers](assets/img/plier_iter1.png)
-![1st tolerance fit](/assets/img/tolerance1.jpg)
-![2nd pliers](assets/img/plier_iter2.png)
-![2nd tolerance fit](/assets/img/tolerance2.jpg)
 {% include gallery caption="The first picture shows the first iteration of the pliers, and next to it the join between the flexible and rigid components. The next two pictures show the same thing for the next iteration (final design)" %}
 
 ---
 
 ## Demo GIF
 
-Below you can see 2 demos of picking up resistors with the pliers I designed. The first iteration comes together at a single point, so it is able to pick up one resistor, and after modifying the angle that the plier jaws came together at, more resistors can be picked up with the final design.
+Below you can see 2 demos of picking up resistors with the pliers I designed. The first iteration comes together at a single point, so it is able to pick up one resistor.
 
 ![1st iteration](/assets/img/1_resistor_iter1.gif)
+
+After modifying the angle that the plier jaws came together at, more resistors can be picked up with the final design.
 ![final design](/assets/img/3_resistor.gif)
