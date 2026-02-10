@@ -2,7 +2,7 @@
 title: "MultiMaterial Pliers"
 excerpt: "3D printed needle nose pliers capable of picking up through-hole resistors with a flexible component"
 header:
-    image: /assets/img/stabilizer.png
+    image: /assets/img/plier_header.png
     teaser: /assets/img/plier_iter2.jpg
 gallery:
     - url: /assets/img/plier_iter1.jpg
@@ -28,10 +28,10 @@ created and how is it retained in the model, materials used)
 ## Project Summary
 
 **What it is:**  
-[1–2 sentence overview of the pliers and their purpose.]
+To complete this project, I designed and 3D printed a pair of pliers by assembling a flexible component with 4 rigid components, the two handles and 2 jaw parts. The pliers should be able to be directly assembled by hand after printing and pick up a through-hole resistor. In this page, I will provide an overview of my design process with my first multi-material 3D printing project.
 
 **Print‑in‑place overview:**  
-[Brief blurb on print‑in‑place (PIP) parts and why it matters here.]
+Print-in-place allows for people to print a full piece without needing assembly 
 
 **External examples of print‑in‑place (PIP):**
 
@@ -55,19 +55,13 @@ created and how is it retained in the model, materials used)
 
 ## Design & Iteration
 
-### Key design decisions
+To determine my design, I based it off of some examples that I saw from previous students in my digital fabrication class with one flexible component in the middle that can spring open and close to make the pliers work. Some considerations I thought about for creating this component was how thick and large I wanted to design this piece. In my very beginning design, I tried to use 3 dovetails for each side of the flexible component to connect it to the rigid parts, as they needed to be assembled by hand. Since they needed to stay in place, the tolerance between the parts had to be tested through several iterations. For the dovetail fit, I ended up giving it a steeper angle, so the parts could lock together better, and I also modified my final design to have two larger dovetails instead of three. This allowed for a deeper fit between the pieces, as opposed to having three shallow dovetails. I kept the thickness of the pliers somewhat thin (8 mm) to allow for increased flexibility and ease of squeezing the handles. I also did not use an extremely heavy infill for the same reason, but I did have the piece be medium sized of 40 mm by 40 mm. 
 
-- **Spring component:** [How it was created and retained in the model.]
-- **Print‑in‑place joints:** [Clearances, orientations, and tolerances.]
-- **Material choices:** [Why you chose each material.]
+For the rigid parts, I designed the jaws to have a section at the very front that would come together to pick up the resistors. In my first iteration, I did not take into account the angle at which the jaws would come together, so they only met at one point, but following that, I modified the angle so that the jaws would come together between two sections of the jaws at an almost parallel angle, allowing for better grip. One modification I would make in the future would probably be to make the handles at a wider angle, as they currently come together quite closely when the jaws are also meeting. The final design I currently have is relatively easy to use, but I think the jaw angle can also be slightly adjusted by one or two degrees. 
 
-### Iteration timeline
+For the fit between the rigid and flexible components, in my original design, I used a 0.2 mm tolerance, which led to a relatively loose fit between the pieces. It still worked, but the joints were not as strong. I modified the tolerance to a 0.07 mm tolerance in my final design, which had an improved fit due to TPU's flexibility, but if I were to try again, I may lower the tolerance even more, as well as fillet the edges of the dovetail. I find the final design still has a little bit of looseness. By filleting the edges of where the TPU and rigid materials join, it can help account for TPU's inability to print very straight edges and create a better fit. 
 
-| Iteration | Change made | Result | Next step |
-| --------- | ----------- | ------ | --------- |
-| V1        | [ ]         | [ ]    | [ ]       |
-| V2        | [ ]         | [ ]    | [ ]       |
-| V3        | [ ]         | [ ]    | [ ]       |
+My first iteration had rigid pieces printed out of ABS and my second iteration was printed out of PLA, but this did not make any significant difference. In the second iteration, there was a little bit of elephant's foot that caused a slight lip on the print, so the fit was not perfect, but the tolerance was still improved. Following iterations would likely result in even better fits. 
 
 ---
 
