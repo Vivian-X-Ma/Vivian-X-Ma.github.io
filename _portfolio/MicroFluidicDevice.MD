@@ -40,7 +40,6 @@ To decide where to place the outlet boundaries for our two particle sizes (small
 
 Y_0 = ((w_p - D/2) * (w_b / w_p))
 
-
 Here are a few images with the dimensions of my design:
 
 ![Pinched Section](/assets/img/pff_inlet_dims.png)
@@ -85,7 +84,7 @@ Here is a detailed overview of the steps I took to create my microfluidic device
 - The PDMS was then bonded with glass slides to create the actual flow sections.
 - For testing, we had a polyethylene beads of two sizes suspended in a 3% tween solution. The beads kept sinking, so we had to shake them, as they are very sensitive to temperature. The larger beads were more sensitive, so it was hard to get them to flow through the device. This mixture was sent into the device inlets, and we set the outlet flow rates connected to the outlets with syringe pumps.
 
-## See the below images of the results of creating the mold and device, as well as the set-up process we had for testing:
+See the below images of the results of creating the mold and device, as well as the set-up process we had for testing:
 
 ## Gallery
 
