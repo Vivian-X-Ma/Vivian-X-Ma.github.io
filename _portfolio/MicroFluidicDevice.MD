@@ -3,20 +3,21 @@ title: "Microfluidic Device"
 excerpt: "A microfluidic device designed to separate particles based on size using pinch flow fractionation (PFF) with a resin-printed mold"
 header:
     image: /assets/img/cover_pin_microfluidic.png
-    teaser: /assets/img/microfluidic_2.png
+    teaser: /assets/img/microfluidic_2.jpg
 gallery:
     - url: /assets/img/microfluidic_1.jpg
       image_path: assets/img/microfluidic_1.jpg
       alt: "microfluidic_gallery_image 1"
-    - url: assets/img/microfluidic_2.jpg
-      image_path: assets/img/microfluidic_2.jpg
+    - url: assets/img/Plasma-Treating-Image.jpg
+      image_path: assets/img/Plasma-Treating-Image.jpg
       alt: "microfluidic_gallery_image 2"
     - url: /assets/img/microfluidic_mold.jpg
       image_path: assets/img/microfluidic_mold.jpg
       alt: "microfluidic_gallery_image 3"
-    - url: assets/img/Plasma-Treating-Image.jpg
-      image_path: assets/img/Plasma-Treating-Image.jpg
+    - url: assets/img/microfluidic_2.jpg
+      image_path: assets/img/microfluidic_2.jpg
       alt: "microfluidic_gallery_image 4"
+   
 ---
 
 ## Introduction
@@ -37,9 +38,8 @@ Two studied approaches for PFF include a symmetric approach and asymmetric appro
 
 To decide where to place the outlet boundaries for our two particle sizes (small: 125-150 um, large: 425-500 um), I used the following equation to calculate where the particles would end up after fanning out in the broad section:
 
-$$
-Y_{0} = {(w_{p} - D/2) \cdot \frac{w_{b}}{w_{p}}}
-$$
+Y_0 = ((w_p - D/2) * (w_b / w_p))
+
 
 Here are a few images with the dimensions of my design:
 
@@ -57,7 +57,7 @@ The height of the channels was 850 microns. I gave it some additional tolerance,
 
 Feel free to look through the CAD model here:
 
-<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811696ac4c863bd9cdc?mode=embed" width="800" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b6028112f56fab0c4119e8d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
 
 ### Testing my Design
 
@@ -85,17 +85,11 @@ Here is a detailed overview of the steps I took to create my microfluidic device
 - The PDMS was then bonded with glass slides to create the actual flow sections.
 - For testing, we had a polyethylene beads of two sizes suspended in a 3% tween solution. The beads kept sinking, so we had to shake them, as they are very sensitive to temperature. The larger beads were more sensitive, so it was hard to get them to flow through the device. This mixture was sent into the device inlets, and we set the outlet flow rates connected to the outlets with syringe pumps.
 
-See the below images of the results of creating the mold and device, as well as the set-up process we had for testing:
-
-![Resin-printed mold](/assets/img/microfluidic_mold.jpg)
-
-![Plasma treating process](/assets/img/Plasma-Treating-Image.jpg)
-
----
+## See the below images of the results of creating the mold and device, as well as the set-up process we had for testing:
 
 ## Gallery
 
-{% include gallery caption="The first picture shows the set-up for testing our microfluidic devices. The next two images show the resin-printed mold and actual microfluidic device. The last picture is an image of the process for the plasma treating process for creating the PDMS mold." %}
+{% include gallery caption="The first picture shows the set-up for testing our microfluidic devices. The next picture is an image of the process for the plasma treating process for creating the PDMS mold. The last two images show the resin-printed mold and actual microfluidic device." %}
 
 ---
 
