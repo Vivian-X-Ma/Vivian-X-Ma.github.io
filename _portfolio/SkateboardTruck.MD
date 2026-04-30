@@ -20,28 +20,50 @@ gallery:
 ---
 
 ## Project Description
-GitHub Deliverables
-• For both ALSi10Mg and 17-4 PH solutions include:
-o An embedded Fusion 360 model of:
-▪ ALSi10Mg outcome
-▪ Nylon 12 outcome
-o A rendering of the completed longboard assembly with the generative design
-trucks.
-• Real life images of the pSLS printed model alone and attached to the longboard deck.
-o Due to pSLS being a batch process, I have to print multiple trucks at a time.
-Please see the BrightSpace assignment details for when you must submit the
-CAD model to have it printed by the end of the semester.
-• Two GIFs of the truck installed on the deck:
-o Turning – showing there is enough clearance around the pivot point for the truck
-to turn.
-o Motor rotating the pulley, belt, and wheels (you can hand turn it)
-• Table of the forces applied, including columns for
-o Name of force
-CHBE 4200
-5
-o Magnitude
-o Location of where it was applied
-o Short rational
+
+For the final project in my Additive Manufacturing class, I designed and printed an electric skateboard truck in Fusion 360. The truck was designed using generative design and printed using powder bed fusion with SLS printing. This truck can be attached to the board and is connected to the motor with a belt that allows for rotation of the wheels.
+
+## Design
+
+To design the truck, I used Fusion's generative design feature, which requires different load cases to represent the forces that the truck might experience. Below is the following table of the forces I used in the generative design model:
+
+| Name of Force      | Magnitude | Location of Application | Rational                                                                                                                                               |
+| ------------------ | --------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Weight of Rider    | 200 lbs   | Center of the truck     | This is the main force that the truck will experience, as it needs to support the weight of the rider.                                                 |
+| Acceleration Force | 50 lbs    | Rear of the truck       | This force represents the acceleration of the skateboard when the motor is engaged. It is applied at the rear of the truck where the motor is located. |
+| Turning Force      | 30 lbs    | Front of the truck      | This force represents the lateral forces experienced during turning. It is applied at the front of the truck where the pivot point is located.         |
+
+
+## CAD Models
+
+Here is the CAD model of the design for the Aluminum truck:
+
+Here is the CAD model of the design for the Stainless Steel truck:
+
+### ALSi10Mg Outcome
+
+
+### 17-4 PH Outcome
+
+
+## Gallery
+
+{% include gallery caption="The first picture shows a rendering of the completed assembly with the aluminum truck design, and the second shows the assembly with the stainless steel truck design. The other pictures show other rendering angles,the fully assembled skateboard, and the powder printed part." %}
+
+
+## Assembly and Testing
+
+View the following GIFs to see the truck installed on the skateboard deck. The first GIF shows the truck turning with enough clearance around the pivot point, and the second GIF shows the motor rotating the wheels. 
+
+## Discussion
+
+### Real World Application of Generative Design and Powder Bed Fusion
+
+
+### Proper Load Cases
+
+
+### Drawbacks of Generative Design
 • A discussion (750 words) on:
 o The unique pairing of powder bed fusion and generative design and their
 applications in either aerospace or automotive industries. Please research a
@@ -52,11 +74,10 @@ o The importance of applying the proper load cases and how to improve this
 process. How did you determine which forces to apply to the model?
 o A comparison between the ALSi10Mg and 17-4 PH outcomes.
 o Critique generative design. How useful is it really? What are the drawbacks?
-What applications would generative design be most useful in? 
-
+What applications would generative design be most useful in?
 
 The GitHub writeup includes the following:
 
-Thoughtful reflection on the unique pairing of powder bed fusion and generative design and their applications in either aerospace or automotive industries. 
-An honest assessment of the utility and drawbacks of generative design. 
+Thoughtful reflection on the unique pairing of powder bed fusion and generative design and their applications in either aerospace or automotive industries.
+An honest assessment of the utility and drawbacks of generative design.
 The GitHub writeup should be at least 750 words in length.
