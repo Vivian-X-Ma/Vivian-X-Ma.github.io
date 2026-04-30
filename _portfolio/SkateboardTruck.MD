@@ -14,8 +14,8 @@ gallery:
     - url: /assets/img/steel_1.png
       image_path: assets/img/steel_1.png
       alt: "skateboard_gallery_image 3"
-    - url: assets/img/steel2.jpg
-      image_path: assets/img/steel2.jpg
+    - url: assets/img/steel2.png
+      image_path: assets/img/steel2.png
       alt: "skateboard_gallery_image 4"
 ---
 
