@@ -2,8 +2,8 @@
 title: "Electric Skateboard Truck"
 excerpt: "An electric skateboard truck printed with SLS printing and designed in Fusion 360 with generative design"
 header:
-    image: /assets/img/assembly1.png
-    teaser: /assets/img/steel_1.png
+    image: /assets/img/powder2_thumb.jpg
+    teaser: /assets/img/thumbnail_gd.png
 gallery:
     - url: /assets/img/alu1.png
       image_path: assets/img/alu1.png
@@ -38,8 +38,10 @@ gallery:
 
 For the final project in my Additive Manufacturing class, I designed and printed an electric skateboard truck in Fusion 360. The truck was designed using generative design and printed using powder bed fusion with SLS printing. This truck can be attached to the board and is connected to the motor with a belt that allows for rotation of the wheels.
 
-<img src="/assets/img/assembly1.jpg" alt="Assembly 1" width="320" />
-<img src="/assets/img/assembly2.jpg" alt="Assembly 2" width="320" />
+<div style="display:flex; gap:10px; flex-wrap:wrap; align-items:flex-start;">
+  <img src="/assets/img/assembly1.jpg" alt="Assembly 1" style="width:320px; max-width:48%; height:auto;" />
+  <img src="/assets/img/assembly2.jpg" alt="Assembly 2" style="width:320px; max-width:48%; height:auto;" />
+</div>
 
 ## Design
 
@@ -61,10 +63,9 @@ A structural constraint was applied to the kingpin area to represent the fixed s
 
 It is extremely important to apply proper load cases, as these simulate the real forces that your design will experience in real life. The generative design process utilizes these load cases to determine where material is needed in order to handle various forces, such as impace, rotation of the skateboard, etc. If the load cases are not accurate, then the printed part will likely not be able to handle the forces, and it might break. For example, if the part handles much higher forces than what is applied in the load cases, it will probably break. At the same time, if you overcompensate and put much higher forces, then our goal to minimize mass and create a lightweight and less bulky part will be challenging to reach, as the generative design process will add additional unnecessary material to handle the higher forces.
 
-To improve this process, you should first do research on what forces the part may experience. Then, through iterative design, you can print the part, measure the actual forces the part experiences in different situations, and modify your design and load cases. Through this iterative process, you will get much more accurate representation of the forces. 
+To improve this process, you should first do research on what forces the part may experience. Then, through iterative design, you can print the part, measure the actual forces the part experiences in different situations, and modify your design and load cases. Through this iterative process, you will get much more accurate representation of the forces.
 
-To determine which forces to apply to my model, I included the main forces that the skateboard truck would experience, such as the weight of the rider, turning, motor rotation, motor weight, and impact forces. I just thought about some of the main potential impact forces, such as going over a bump or hitting a curb. To determine the magnitude of the forces, I found the actual weight of the motor, for example, and estimated impact and turning forces based on what is typically experienced from the rider's weight. 
-
+To determine which forces to apply to my model, I included the main forces that the skateboard truck would experience, such as the weight of the rider, turning, motor rotation, motor weight, and impact forces. I just thought about some of the main potential impact forces, such as going over a bump or hitting a curb. To determine the magnitude of the forces, I found the actual weight of the motor, for example, and estimated impact and turning forces based on what is typically experienced from the rider's weight.
 
 ## CAD Models
 
@@ -78,7 +79,7 @@ To determine which forces to apply to my model, I included the main forces that 
 
 ### Comparison of ALSi10Mg and 17-4 PH Outcomes
 
-The aluminum outcome is much bulkier, as can be viewed, than the stainless steel outcome. Since aluminum is less strong than stainless steel, it needed more material to reach the safety factor requirement of 2 in order to still handle the various forces that the skateboard might experience. The aluminum outcome also has more mass of 1.397 kg as opposed to the stainless steel version with a mass of 1.091 kg. 
+The aluminum outcome is much bulkier, as can be viewed, than the stainless steel outcome. Since aluminum is less strong than stainless steel, it needed more material to reach the safety factor requirement of 2 in order to still handle the various forces that the skateboard might experience. The aluminum outcome also has more mass of 1.397 kg as opposed to the stainless steel version with a mass of 1.091 kg.
 
 ## Gallery
 
@@ -86,7 +87,7 @@ The aluminum outcome is much bulkier, as can be viewed, than the stainless steel
 
 ## Assembly and Testing
 
-View the following to see the truck installed on the skateboard deck. The first GIF shows the truck turning with enough clearance around the pivot point with a zoomed-in version, and the next GIF shows the motor rotating the wheel through the belt connection. The rotation around the pivot point is for turning when the rider leans to one side, and the motor rotation is important (shown in both directions) for the skateboard to move forward and brake. Both functions correctly work on the actual model, and the part fits on the actual skateboard. In a future iteration, I would probably increase the clearance, as it currently fits tighter than I would like. 
+View the following to see the truck installed on the skateboard deck. The first GIF shows the truck turning with enough clearance around the pivot point with a zoomed-in version, and the next GIF shows the motor rotating the wheel through the belt connection. The rotation around the pivot point is for turning when the rider leans to one side, and the motor rotation is important (shown in both directions) for the skateboard to move forward and brake. Both functions correctly work on the actual model, and the part fits on the actual skateboard. In a future iteration, I would probably increase the clearance, as it currently fits tighter than I would like.
 
 <img src="/assets/img/rotate1.gif" alt="Skateboard truck turning GIF" width="640" />
 <video width="640" height="360" controls playsinline>
@@ -101,14 +102,16 @@ View the following to see the truck installed on the skateboard deck. The first 
 
 ### Real World Application of Generative Design and Powder Bed Fusion
 
-Generative design and powder bed fusion are a great and unique combination that can be used for various applications. The reason why they work so well together is because generative design usually creates very complex geometries that can be hard to manufacture with traditional manufacturing methods. Powder bed fusion allows for very accurate representations of these designs, as it does not require support and can still have internal lattices and organic shapes and be printed. This allows for the full potential of generative design to be reached, as it can create intricate designs that meet the goals we set, such as minimizing mass while still meeting safety requirements.
+Generative design and powder bed fusion are a great and unique combination that can be used for various applications. The reason why they work so well together is because generative design usually creates very complex geometries that can be hard to manufacture with traditional manufacturing methods. Powder bed fusion allows for very accurate representations of these designs, as it does not require support and can still have internal lattices and organic shapes and be printed. This allows for the full potential of generative design to be reached, as it can create intricate designs that meet the goals we set, such as minimizing mass while still meeting safety requirements. This also means that instead of assembling multiple separate parts, we can print a part as one piece that is lightweight and connects with the rest of our design (like the skateboard truck). This can reduce assembly time and more efficiency.
 
+The combination of generative design and powder bed fusion is highly beneficial in both automotive and aerospace industries. One example of its use in a car component for a Formula student competition shows how useful the approach was for using generative design to have "weight reduction of 40 % per component and three times higher load capacity," according to this [article](https://www.sciencedirect.com/science/article/pii/S1526612522003723). Essentially, for the international racing competitions, there are many car components, such as brake, suspension, chassis, and more that can be developed more efficiently with generative design and still manufactured with powder bed fusion that would have been much more challenging to manufacture with traditional methods like milling.
 
+Another example in aerospace can be seen in this very recent [news](https://www.lockheedmartin.com/en-us/news/features/2026/Accelerating-Operational-Readiness-with-Laser-Powder-Bed-Fusion-Additive-Manufacturing.html?st_source=ai_mode) from Lockheed Martin. Since powder bed fusion allows for layer by layer creation of parts, it can reduce "expensive and time-intensive tooling," which means that small intricate components can reach the market faster. These parts can still meet strict aerospace requirements for safety, performance, heat handling, and weight. The result of this from the news is that "Lockheed Martin’s use of laser powder-bed fusion’s generative design and optimization solutions deliver a 15-20 percent reduction in overall system weight while boosting heat dissipation efficiency by 10-15 percent," which shows how useful the combination of generative design and powder bed fusion can be. In addition to regular aircraft, it is also used for efficient, reliable and scalable production of platforms like the UH-60M BlackHawk, and PrSM.
 
 ### Critique of Generative Design
 
-Generative design seems very useful when first introduced, as it can create designs, and we just have to give it load cases and obstacle/preserve geometries. You might initially think that you can use it for any design and it can minimize mass and meet a safety factor rather than us having to do it manually. While it is great at determining what material can be removed and coming up with very intricate geometries that meet the goals we set, it has drawbacks as well. 
+Generative design seems very useful when first introduced, as it can create designs, and we just have to give it load cases and obstacle/preserve geometries. You might initially think that you can use it for any design and it can minimize mass and meet a safety factor rather than us having to do it manually. While it is great at determining what material can be removed and coming up with very intricate geometries that meet the goals we set, it has drawbacks as well.
 
-First of all, when you want a simple design, generative design often creates complex geometries that can be very hard to manufacture. With powder printing, we can get accurate representations of these geometries, but other manufacturing methods may not be able to easily create these designs. Secondly, if load cases are not correctly applied or the initial conditions given are not accurate, then the generative design will not function correctly. This can be dangerous if used without proper testing and it is just directly trusted. Lastly, if you are trying to find what part of the generative design is failing and modify that, it can be hard to tell, especially if the part design is very strange. 
+First of all, when you want a simple design, generative design often creates complex geometries that can be very hard to manufacture. With powder printing, we can get accurate representations of these geometries, but other manufacturing methods may not be able to easily create these designs. Secondly, if load cases are not correctly applied or the initial conditions given are not accurate, then the generative design will not function correctly. This can be dangerous if used without proper testing and it is just directly trusted. Lastly, if you are trying to find what part of the generative design is failing and modify that, it can be hard to tell, especially if the part design is very strange.
 
-Generative design is most useful when you want to create lightweight parts or need very complex geometries, such as in aerospace, automotive industries, and for medical implants. The benefit of using generative design in these areas is that it can create many geometries that humans may not think of while still meeting safety requirements, for example. 
+Generative design is most useful when you want to create lightweight parts or need very complex geometries, such as in aerospace, automotive industries, and for medical implants. The benefit of using generative design in these areas is that it can create many geometries that humans may not think of while still meeting safety requirements, for example.
