@@ -3,7 +3,7 @@ title: "Electric Skateboard Truck"
 excerpt: "An electric skateboard truck printed with SLS printing and designed in Fusion 360 with generative design"
 header:
     image: /assets/img/assembly.png
-    teaser: /assets/img/teaser.png
+    teaser: /assets/img/steel_1.png
 gallery:
     - url: /assets/img/alu1.png
       image_path: assets/img/alu1.png
@@ -17,11 +17,30 @@ gallery:
     - url: assets/img/steel2.png
       image_path: assets/img/steel2.png
       alt: "skateboard_gallery_image 4"
+    - url: assets/img/powder1.jpg
+      image_path: assets/img/powder1.jpg
+      alt: "skateboard_gallery_image 5"
+    - url: assets/img/powder2.jpg
+      image_path: assets/img/powder2.jpg
+      alt: "skateboard_gallery_image 6"
+    - url: assets/img/powder3.jpg
+      image_path: assets/img/powder3.jpg
+      alt: "skateboard_gallery_image 7"
+    - url: assets/img/powder4.jpg
+      image_path: assets/img/powder4.jpg
+      alt: "skateboard_gallery_image 8"
+    - url: assets/img/powder5.jpg
+      image_path: assets/img/powder5.jpg
+      alt: "skateboard_gallery_image 9"
+      
 ---
 
 ## Project Description
 
 For the final project in my Additive Manufacturing class, I designed and printed an electric skateboard truck in Fusion 360. The truck was designed using generative design and printed using powder bed fusion with SLS printing. This truck can be attached to the board and is connected to the motor with a belt that allows for rotation of the wheels.
+
+<img src="/assets/img/assembly1.jpg" alt="Assembly 1" width="640" />
+<img src="/assets/img/assembly2.jpg" alt="Assembly 2" width="640" />
 
 ## Design
 
@@ -45,11 +64,20 @@ To design the truck, I used Fusion's generative design feature, which requires d
 
 ## Gallery
 
-{% include gallery caption="The first picture shows a rendering of the completed assembly with the aluminum truck design, and the second shows the assembly with the stainless steel truck design. The other pictures show other rendering angles,the fully assembled skateboard, and the powder printed part." %}
+{% include gallery caption="The first pictures show a rendering of the completed assembly with the aluminum truck design, and the next picture shows the assembly with the stainless steel truck design. The other pictures show other rendering angles,the fully assembled skateboard, and the powder printed part." %}
 
 ## Assembly and Testing
 
-View the following GIFs to see the truck installed on the skateboard deck. The first GIF shows the truck turning with enough clearance around the pivot point, and the second GIF shows the motor rotating the wheels.
+View the following to see the truck installed on the skateboard deck. The first GIF shows the truck turning with enough clearance around the pivot point with a zoomed-in version, and the next GIF shows the motor rotating the wheel through the belt connection.
+
+<img src="/assets/img/rotate1.gif" alt="Skateboard truck turning GIF" width="640" />
+<video width="640" height="360" controls playsinline>
+
+  <source src="/assets/img/rotate2.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+<img src="/assets/img/motor.gif" alt="Skateboard truck motor belt GIF" width="640" />
 
 ## Discussion
 
