@@ -57,6 +57,14 @@ To design the truck, I used Fusion's generative design feature, which requires d
 
 A structural constraint was applied to the kingpin area to represent the fixed support to ensure stable results. Outcomes were generated with the goal of minimizing mass and maintaining a safety factor of 2 (allowing the part to handle 2 times the applied forces). The generative design was allowed to be unrestricted to allow for the most exploration of different designs.
 
+### Proper Load Cases
+
+It is extremely important to apply proper load cases, as these simulate the real forces that your design will experience in real life. The generative design process utilizes these load cases to determine where material is needed in order to handle various forces, such as impace, rotation of the skateboard, etc. If the load cases are not accurate, then the printed part will likely not be able to handle the forces, and it might break. For example, if the part handles much higher forces than what is applied in the load cases, it will probably break. At the same time, if you overcompensate and put much higher forces, then our goal to minimize mass and create a lightweight and less bulky part will be challenging to reach, as the generative design process will add additional unnecessary material to handle the higher forces.
+
+To improve this process, you should first do research on what forces the part may experience. Then, through iterative design, you can print the part, measure the actual forces the part experiences in different situations, and modify your design and load cases. Through this iterative process, you will get much more accurate representation of the forces. 
+
+To determine which forces to apply to my model, I included the main forces that the skateboard truck would experience, such as the weight of the rider, turning, motor rotation, motor weight, and impact forces. I just thought about some of the main potential impact forces, such as going over a bump or hitting a curb. To determine the magnitude of the forces, I found the actual weight of the motor, for example, and estimated impact and turning forces based on what is typically experienced from the rider's weight. 
+
 
 ## CAD Models
 
@@ -74,7 +82,7 @@ The aluminum outcome is much bulkier, as can be viewed, than the stainless steel
 
 ## Gallery
 
-{% include gallery caption="The first pictures show a rendering of the completed assembly with the aluminum truck design, and the next picture shows the assembly with the stainless steel truck design. The other pictures show other rendering angles of the powder printed part." %}
+{% include gallery caption="The first pictures show a rendering of the completed assembly with the aluminum truck design, and the next picture shows the assembly with the stainless steel truck design. The other pictures show other angles of the powder printed part." %}
 
 ## Assembly and Testing
 
