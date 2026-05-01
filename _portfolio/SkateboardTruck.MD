@@ -32,7 +32,6 @@ gallery:
     - url: assets/img/powder5.jpg
       image_path: assets/img/powder5.jpg
       alt: "skateboard_gallery_image 9"
-      
 ---
 
 ## Project Description
@@ -46,11 +45,15 @@ For the final project in my Additive Manufacturing class, I designed and printed
 
 To design the truck, I used Fusion's generative design feature, which requires different load cases to represent the forces that the truck might experience. Below is the following table of the forces I used in the generative design model:
 
-| Name of Force      | Magnitude | Location of Application | Rational                                                                                                                                               |
-| ------------------ | --------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Weight of Rider    | 200 lbs   | Center of the truck     | This is the main force that the truck will experience, as it needs to support the weight of the rider.                                                 |
-| Acceleration Force | 50 lbs    | Rear of the truck       | This force represents the acceleration of the skateboard when the motor is engaged. It is applied at the rear of the truck where the motor is located. |
-| Turning Force      | 30 lbs    | Front of the truck      | This force represents the lateral forces experienced during turning. It is applied at the front of the truck where the pivot point is located.         |
+| Name of Force             | Magnitude | Location of Application                                                                | Rational                                                                                                                                                                                                                                                               |
+| ------------------------- | --------- | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Weight of Rider           | 500 N     | On both axles and the pivot point                                                                          | I used a bearing load to represent the weight of the rider on the axles and the full magnitude of the rider weight because the rider may lean to one side, which would place the full weight on that side. It is also present on the pivot point, as the rider's weight is distributed across the board and when centered, the weight will rest there                                                                                |
+| Weight of Motor           | 8.34 N    | On the bottom edge of the circles in the motor mount where the motor would be attached | This force was calculatd based on the motor's weight, and I used a remote force to represent the weight since the motor is hanging off to the side a bit. The weight is going to be pressed down on the contact holes with the motor mount.                            |
+| Turning Force             | 150 N     | On the center of the axles in opposite directions                                      | The skateboard may experience force going forward on one axle and force going backward on the other axle during turning, and this shear force allows the skateboard to turn when the rider is leaning on one side.This force is usually about 1/3 of the rider weight. |
+| Bump Impact Force         | 500 N     | On both axles vertically upward                                                        | This force represents the impact when the skateboard goes over a bump, which will go through the wheels to the axles.                                                                                                                                                  |
+| Curb Impact Force         | 1300 N    | On both axles                                                                          | This force represents the impact when the skateboard is moving forward and hits a curb, so both axles will experience about 2 - 3 times the rider's weight of impact force coming from the front (the curb).                                                           |
+| Rotation of Motor         | 5 Nm      | On the Motor Mount                                                                     | This force, applied as a moment on the face of the motor mount, represents the torque of the motor rotating as the rider moves forward. The maximum torque for the Flipsky is about 5 Nm                                                                               |
+| Reverse Rotation of Motor | 5 Nm      | On the Motor Mount                                                                     | This force, applied as a moment on the face of the motor mount, represents the torque of the motor rotating as the rider brakes. The maximum torque for the Flipsky is about 5 Nm. It can also be reverse direction.                                                   |
 
 ## CAD Models
 
@@ -64,7 +67,7 @@ To design the truck, I used Fusion's generative design feature, which requires d
 
 ## Gallery
 
-{% include gallery caption="The first pictures show a rendering of the completed assembly with the aluminum truck design, and the next picture shows the assembly with the stainless steel truck design. The other pictures show other rendering angles,the fully assembled skateboard, and the powder printed part." %}
+{% include gallery caption="The first pictures show a rendering of the completed assembly with the aluminum truck design, and the next picture shows the assembly with the stainless steel truck design. The other pictures show other rendering angles of the powder printed part." %}
 
 ## Assembly and Testing
 
