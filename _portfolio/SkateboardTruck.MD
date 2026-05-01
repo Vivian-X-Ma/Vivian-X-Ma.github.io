@@ -101,24 +101,14 @@ View the following to see the truck installed on the skateboard deck. The first 
 
 ### Real World Application of Generative Design and Powder Bed Fusion
 
+Generative design and powder bed fusion are a great and unique combination that can be used for various applications. The reason why they work so well together is because generative design usually creates very complex geometries that can be hard to manufacture with traditional manufacturing methods. Powder bed fusion allows for very accurate representations of these designs, as it does not require support and can still have internal lattices and organic shapes and be printed. This allows for the full potential of generative design to be reached, as it can create intricate designs that meet the goals we set, such as minimizing mass while still meeting safety requirements.
 
 
 
-### Drawbacks of Generative Design
+### Critique of Generative Design
 
-• A discussion (750 words) on:
-o The unique pairing of powder bed fusion and generative design and their
-applications in either aerospace or automotive industries. Please research a
-specific commercial example (not on the slides), where generative design has
-been used to reduce the number of components in an assembly. Citation should
-be included as a hyperlink.
-o The importance of applying the proper load cases and how to improve this
-process. How did you determine which forces to apply to the model?
-o Critique generative design. How useful is it really? What are the drawbacks?
-What applications would generative design be most useful in?
+Generative design seems very useful when first introduced, as it can create designs, and we just have to give it load cases and obstacle/preserve geometries. You might initially think that you can use it for any design and it can minimize mass and meet a safety factor rather than us having to do it manually. While it is great at determining what material can be removed and coming up with very intricate geometries that meet the goals we set, it has drawbacks as well. 
 
-The GitHub writeup includes the following:
+First of all, when you want a simple design, generative design often creates complex geometries that can be very hard to manufacture. With powder printing, we can get accurate representations of these geometries, but other manufacturing methods may not be able to easily create these designs. Secondly, if load cases are not correctly applied or the initial conditions given are not accurate, then the generative design will not function correctly. This can be dangerous if used without proper testing and it is just directly trusted. Lastly, if you are trying to find what part of the generative design is failing and modify that, it can be hard to tell, especially if the part design is very strange. 
 
-Thoughtful reflection on the unique pairing of powder bed fusion and generative design and their applications in either aerospace or automotive industries.
-An honest assessment of the utility and drawbacks of generative design.
-The GitHub writeup should be at least 750 words in length.
+Generative design is most useful when you want to create lightweight parts or need very complex geometries, such as in aerospace, automotive industries, and for medical implants. The benefit of using generative design in these areas is that it can create many geometries that humans may not think of while still meeting safety requirements, for example. 
